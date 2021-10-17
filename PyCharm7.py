@@ -6,3 +6,5 @@ def greet(name):
         return "Hello, " + name
     else:
         raise ValueError(name + " is inappropriate name")
+
+print("Import is execution")
