@@ -1,12 +1,10 @@
+x = [-3, -2, -1, 0, 1, 2, 3]
 
-lst = [1, 2, 3]
-print(lst)
+y = [i * i for i in x if i < 0]
 
-for i in lst:
-    print(i)
+print(y)
 
-iterator = iter(lst)
-print(next(iterator))
-print(next(iterator))
 
-class RandomIterator()
+z = [(a, b) for a in range(3) for b in range(3) if b >= a]
+
+print(z)
